@@ -34,6 +34,7 @@
       <p class="container">Copyright Kercode 2021 - <a href="#">Mentions légales</a></p>
     </div>
   </footer>
+  <script type="text/javascript" src="Script/nav.js"></script>
 </body>
 
 </html>

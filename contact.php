@@ -50,7 +50,7 @@
                 <p><input type="submit" value="Envoyer"><input type="reset" value="Annuler"></p>
                 </div>
                 <div id="rgpd">
-                    <input type="checkbox" name="rgpd" id="rgpd_clause" value="rgpd_clause">
+                    <input type="checkbox" name="rgpd" id="rgpd_clause" value="rgpd_clause" required>
                     <label for="rgpd_clause">J'autorise ce site à conserver mes données personnelles transmises via ce formulaire. Aucune exploitation commerciale ne sera faite des données conservées. Voir notre <a href="#">politique de gestion des données personnelles</a>.</a></label>
                 </div>
         </form>

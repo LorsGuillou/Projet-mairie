@@ -246,6 +246,10 @@ https://codepen.io/erikterwan/pen/EVzeRP  */
   background-color: var(--lightbg);
 }
 
+.navigation_active {
+  background-color: var(--lightbg);
+}
+
 /* ----------contenu général---------- */
 
 main {
