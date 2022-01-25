@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include_once ('layout/header.php'); ?>
     <main class="container">
         <div id="contact">
             <h2>Contactez-nous</h2>
@@ -13,19 +13,24 @@
                 </p>
                 <p class="contact_typing">
                     <label for="nom">Votre nom<span class="red">*</span> : </label>
-                    <input type="text" name="nom" id="nom" placeholder="Tapez votre nom">
+                    <input type="text" name="nom" id="nom" placeholder="Tapez votre nom" required>
                 </p>
                 <p class="contact_typing">
                     <label for="prenom">Votre prénom<span class="red">*</span> : </label>
-                    <input type="text" name="prenom" id="prenom" placeholder="Tapez votre prénom">
+                    <input type="text" name="prenom" id="prenom" placeholder="Tapez votre prénom" required>
+                </p>
+                <p class="contact_typing">
+                    <label for="adresse">Votre adresse<span class="red">*</span> : </label>
+                    <input type="text" name="adresse" id="adresse" placeholder="Tapez votre adresse" required>
+                    <ul id="wrapper"></ul>
                 </p>
                 <p class="contact_typing">
                     <label for="email">Votre adresse mail<span class="red">*</span> : </label>
-                    <input type="email" name="email" id="email" placeholder="Tapez votre mail">
+                    <input type="email" name="email" id="email" placeholder="Tapez votre mail" required>
                 </p>
                 <p class="contact_typing">
                     <label for="telephone">Votre téléphone<span class="red">*</span> : </label>
-                    <input type="tel" name="telephone" id="telephone" placeholder="06 01 02 03 04">
+                    <input type="tel" name="telephone" id="telephone" placeholder="06 01 02 03 04" required>
                 </p>
                 <p id="obligatory"><span class="red">*</span> Champs obligatoires</p>
                 </div>
@@ -46,7 +51,7 @@
                     </span>
                 </p>
                 <label for="message">Votre message : </label><br>
-                <textarea name="message" rows="5" id="message" placeholder="Posez-nous vos questions"></textarea>
+                <textarea name="message" rows="5" id="message" placeholder="Posez-nous vos questions" required></textarea>
                 <p><input type="submit" value="Envoyer"><input type="reset" value="Annuler"></p>
                 </div>
                 <div id="rgpd">
@@ -86,4 +91,4 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2651.5913677267813!2d-3.9988525851785726!3d48.349159244380985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48114715d7784b71%3A0xfa573a16de6df9f7!2sMairie!5e0!3m2!1sfr!2sfr!4v1637830452834!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </main>
-<?php include('footer.php'); ?>
+<?php include_once ('layout/footer.php'); ?>
