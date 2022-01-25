@@ -36,6 +36,7 @@
   </footer>
   <script type="text/javascript" src="script/nav.js"></script>
   <script type="text/javascript" src="script/api.js"></script>
+  <script type="module" src="script/formulaire.js"></script>
 </body>
 
 </html>

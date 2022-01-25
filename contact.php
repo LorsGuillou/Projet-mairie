@@ -3,7 +3,7 @@
         <div id="contact">
             <h2>Contactez-nous</h2>
             
-            <form action="envoyerform.php" method="post" class="transition">
+            <form method="post" class="transition">
                 <div id="contact_form">
                 <p id="gender">
                     <input type="radio" name="civility" id="civility_mr" value="Mr">
@@ -52,7 +52,7 @@
                 </p>
                 <label for="message">Votre message : </label><br>
                 <textarea name="message" rows="5" id="message" placeholder="Posez-nous vos questions" required></textarea>
-                <p><input type="submit" value="Envoyer"><input type="reset" value="Annuler"></p>
+                <p><input type="submit" value="Envoyer" id="send"><input type="reset" value="Annuler" id="cancel"></p>
                 </div>
                 <div id="rgpd">
                     <input type="checkbox" name="rgpd" id="rgpd_clause" value="rgpd_clause" required>
@@ -80,15 +80,11 @@
                     <h3><i class="fas fa-phone"></i>Téléphone</h3>
                     <p>+33 2 98 98 98 98</p>
                 </div>
-                <!-- <div class="cityhall_info_content">
-                    <h3><i class="fas fa-envelope"></i></i>E-mail</h3>
-                    <p><a href="#">Contactez-nous par mail</a></p>
-                </div> -->
             </div>
             <p id="covid_info">Du gel hydroalcoolique est à votre disposition. Le port du masque est conseillé.</p>
         </div>
-        <div id="map">
+        <!-- <div id="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2651.5913677267813!2d-3.9988525851785726!3d48.349159244380985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48114715d7784b71%3A0xfa573a16de6df9f7!2sMairie!5e0!3m2!1sfr!2sfr!4v1637830452834!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
+        </div> -->
     </main>
 <?php include_once ('layout/footer.php'); ?>

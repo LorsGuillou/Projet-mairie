@@ -16,7 +16,7 @@
       </div>
       <div id="navigation_list_wide" class="container">
         <ul>
-          <li><a href="index.php">Accueil</a></li>
+          <li><a href="index.php" class="navigation_active">Accueil</a></li>
           <li><a href="news.php">Actualités</a></li>
           <li><a href="#">Agenda</a></li>
           <li><a href="#">Vie de la commune</a></li>

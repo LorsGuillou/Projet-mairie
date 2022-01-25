@@ -17,48 +17,24 @@ class Article {
         $this->date = $date;
     }
 
-    public function setTitle(string $newTitle) {
-        $this->title = $newTitle;
-    }
-
     public function getTitle() {
         return $this->title;
-    }
-
-    public function setCategory(string $newCategory) {
-        $this->category = $newCategory;
     }
 
     public function getCategory() {
         return $this->category;
     }
 
-    public function setAccroche(string $newAccroche) {
-        $this->accroche = $newAccroche;
-    }
-
     public function getAccroche() {
         return $this->accroche;
-    }
-
-    public function setImg(string $newImg) {
-        $this->img = $newImg;
     }
 
     public function getImg() {
         return $this->img;
     }
 
-    public function setContent(string $newContent) {
-        $this->content = $newContent;
-    }
-
     public function getContent() {
         return $this->content;
-    }
-
-    public function setDate(string $newDate) {
-        $this->date = $newDate;
     }
 
     public function getDate() {
