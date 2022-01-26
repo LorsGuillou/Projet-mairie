@@ -271,17 +271,21 @@ h2 {
 
 /* ----------accueil---------- */
 
-#welcome {
+#welcome, #erreur {
   margin: 25px 0;
   text-align: center;
 }
 
-#welcome h2 {
+#welcome h2, #erreur h2 {
   margin-bottom: 25px;
 }
 
 #welcome p {
   text-align: justify;
+}
+
+#erreur p {
+  text-align: center;
 }
 
 #index_actu, #index_agenda {
