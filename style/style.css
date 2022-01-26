@@ -441,7 +441,7 @@ h2 {
   font-size: 0.7rem;
 }
 
-#contact form #rgpd {
+#rgpd {
   width: 100%;
   color: var(--datepolice);
   font-size: 0.7rem;
@@ -449,7 +449,7 @@ h2 {
   margin-top: 10px;
 }
 
-#contact form #rgpd input {
+#rgpd input {
   margin-right: 5px;
 }
 
@@ -477,8 +477,7 @@ h2 {
   font-family: 'Outfit', sans-serif;
 }
 
-#contact input[type=submit],
-#contact input[type=reset] {
+#contact #formulaire .bouton {
   color: whitesmoke;
   background-color: var(--darkbg);
   border: none;

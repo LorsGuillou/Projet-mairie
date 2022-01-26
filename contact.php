@@ -3,14 +3,14 @@
         <div id="contact">
             <h2>Contactez-nous</h2>
             
-            <form method="post" class="transition">
+            <form method="post" class="transition" id="formulaire">
                 <div id="contact_form">
-                <p id="gender">
+                <!-- <p id="gender">
                     <input type="radio" name="civility" id="civility_mr" value="Mr">
                     <label for="civility_mr">Mr</label>
                     <input type="radio" name="civility" id="civility_mrs" value="Mme">
                     <label for="civility_mrs">Mme</label>
-                </p>
+                </p> -->
                 <p class="contact_typing">
                     <label for="nom">Votre nom<span class="red">*</span> : </label>
                     <input type="text" name="nom" id="nom" placeholder="Tapez votre nom" required>
@@ -35,7 +35,7 @@
                 <p id="obligatory"><span class="red">*</span> Champs obligatoires</p>
                 </div>
                 <div id="contact_message">
-                <p class="contact_object">
+                <!-- <p class="contact_object">
                     <span id="object">Objet : </span>
                     <span>
                         <input type="checkbox" name="objet" id="information" value="information">
@@ -49,10 +49,12 @@
                         <input type="checkbox" name="objet" id="other" value="other">
                         <label for="other">Autre</label>
                     </span>
-                </p>
+                </p> -->
                 <label for="message">Votre message : </label><br>
                 <textarea name="message" rows="5" id="message" placeholder="Posez-nous vos questions" required></textarea>
-                <p><input type="submit" value="Envoyer" id="send"><input type="reset" value="Annuler" id="cancel"></p>
+                <p>
+                    <button type="submit" class="bouton">Envoyer</button><button type="reset" class="bouton">Annuler</button>
+                </p>
                 </div>
                 <div id="rgpd">
                     <input type="checkbox" name="rgpd" id="rgpd_clause" value="rgpd_clause" required>
