@@ -53,7 +53,8 @@
                 <label for="message">Votre message : </label><br>
                 <textarea name="message" rows="5" id="message" placeholder="Posez-nous vos questions" required></textarea>
                 <p>
-                    <button type="submit" class="bouton">Envoyer</button><button type="reset" class="bouton">Annuler</button>
+                    <button type="submit" class="gris" id="envoyer" disabled>Envoyer</button>
+                    <button type="reset" class="bouton">Annuler</button>
                 </p>
                 </div>
                 <div id="rgpd">

@@ -27,3 +27,20 @@ form.addEventListener("submit", async (event) => {
     }
     formInputs.forEach(element => element.value = "")
 });
+
+const rgpd = document.getElementById("rgpd_clause");
+const bouton = document.getElementById("envoyer"); 
+
+if (rgpd.checked == false) {
+    rgpd.addEventListener("click", () => {
+        bouton.disabled = false;
+        bouton.classList.remove("gris");
+        bouton.classList.add("bouton");
+    });
+} else if (rgpd.checked == true) {
+    rgpd.addEventListener("click", () => {
+        bouton.disabled = true;
+        bouton.classList.remove("bouton");
+        bouton.classList.add("gris");
+    });
+}
